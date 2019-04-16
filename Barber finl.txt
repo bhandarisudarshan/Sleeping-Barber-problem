@@ -21,7 +21,7 @@ int main(int argc,char *argv[])
 	int status=0;
 	end_time=time(NULL)+20;/*Barber Shop Hours is 20s*/
 
-	/*Semaphore initialization*/
+	
 	sem_init(&mutex,0,1);
 	sem_init(&customers,0,0);
 	sem_init(&barbers,0,1);
